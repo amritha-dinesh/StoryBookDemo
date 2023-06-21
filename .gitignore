@@ -21,8 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 ios/.xcode.env.local
-.ondevice/
-.storybook/
+
 # Android/IntelliJ
 #
 build/
