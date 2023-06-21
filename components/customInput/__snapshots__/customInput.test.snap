@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput Component renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignSelf": "center",
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        collapsable={false}
+        style={
+          {
+            "_animation": null,
+            "_children": [],
+            "_listeners": {},
+            "_offset": 0,
+            "_startingValue": 1,
+            "_value": 1,
+            "color": "black",
+            "position": "absolute",
+          }
+        }
+        testID="label"
+      >
+        Label Name
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <TextInput
+          autoFocus={false}
+          editable={true}
+          keyboardType="default"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="placeholder"
+          placeholderTextColor="gray"
+          secureTextEntry={false}
+          style={
+            [
+              {
+                "height": 44,
+                "marginBottom": 10,
+                "marginTop": 20,
+                "padding": 10,
+                "width": "100%",
+              },
+              {
+                "backgroundColor": "#e8e8e8",
+                "borderBottomWidth": 1,
+              },
+              false,
+            ]
+          }
+          testID="custom-input"
+        />
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

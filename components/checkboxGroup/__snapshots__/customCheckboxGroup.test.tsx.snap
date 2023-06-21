@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomCheckboxGroup should match the snapshot 1`] = `
+<View
+  testID="custom-checkbox-group"
+>
+  <RCTSafeAreaView
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+        },
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="custom-checkbox"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/unchecked.png",
+          }
+        }
+        style={
+          {
+            "height": 40,
+            "tintColor": "#9e9e9e",
+            "width": 40,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontFamily": undefined,
+          "fontSize": undefined,
+          "marginHorizontal": 10,
+        }
+      }
+    >
+      Java
+    </Text>
+  </RCTSafeAreaView>
+  <RCTSafeAreaView
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "flex-start",
+        },
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="custom-checkbox"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/unchecked.png",
+          }
+        }
+        style={
+          {
+            "height": 40,
+            "tintColor": "#9e9e9e",
+            "width": 40,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontFamily": undefined,
+          "fontSize": undefined,
+          "marginHorizontal": 10,
+        }
+      }
+    >
+      Kotlin
+    </Text>
+  </RCTSafeAreaView>
+</View>
+`;
